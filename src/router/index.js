@@ -19,6 +19,16 @@ const routes = [
     name: "diary",
     component: () => import("../views/DiaryView.vue"),
   },
+  {
+    path: "/user",
+    name: "user",
+    component: () => import("../views/UserView.vue"),
+  },
+  {
+    path: "/mypage",
+    name: "mypage",
+    component: () => import("../views/MyPageView.vue"),
+  },
 ];
 
 const router = new VueRouter({
